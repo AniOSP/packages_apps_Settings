@@ -21,6 +21,15 @@
     android:key="top_level_settings">
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="org.aniosp.settings.AniospSettings"
+        android:icon="@drawable/ic_settings_aniosp"
+        android:key="top_level_aniosp"
+        android:order="-160"
+        android:title="@string/caster_dashboard_title"
+        android:summary="@string/caster_dashboard_summary"
+        settings:controller="org.aniosp.settings.TopLevelAniospSettingsPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_settings_wireless"
         android:key="top_level_network"

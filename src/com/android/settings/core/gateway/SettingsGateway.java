@@ -170,6 +170,7 @@ import com.android.settings.wifi.tether.WifiTetherClientManager;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
+import org.aniosp.settings.AniospSettings;
 
 public class SettingsGateway {
 
@@ -328,7 +329,8 @@ public class SettingsGateway {
             AlarmsAndRemindersDetails.class.getName(),
             MediaManagementAppsDetails.class.getName(),
             LiveDisplaySettings.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),,
+            AniospSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -369,5 +371,6 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
+            Settings.AniospSettingsActivity.class.getName(),
     };
 }
