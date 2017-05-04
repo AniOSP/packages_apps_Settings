@@ -44,10 +44,17 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: [
+        "src/**/*.java",
+        "Caster/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages org.aniosp.settings"],
+
     resource_dirs: [
         "res",
         "res-pixel",
+        "Caster/res",
         "TouchGestures/res"
     ],
 
@@ -92,6 +99,9 @@ android_library {
         "ims-common",
         "app-compat-annotations",
     ],
+    optimize: {
+        proguard_flags_files: ["proguard-core.flags"],
+    },
 }
 
 platform_compat_config {

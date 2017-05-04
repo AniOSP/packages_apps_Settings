@@ -1,0 +1,2 @@
+# Caster
+-keep class org.aniosp.settings.**
