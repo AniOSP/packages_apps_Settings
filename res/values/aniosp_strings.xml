@@ -179,4 +179,7 @@
 
     <!-- About device screen, AniOSP -->
     <string name="aniosp_version">AniOSP version</string>
+
+    <!-- About device screen, Build date -->
+    <string name="build_date">Build date</string>
 </resources>
