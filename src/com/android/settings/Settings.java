@@ -329,4 +329,7 @@ public class Settings extends SettingsActivity {
      * Activity for Caster
      */
     public static class AniospSettingsActivity extends SettingsActivity {}
+
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 }
