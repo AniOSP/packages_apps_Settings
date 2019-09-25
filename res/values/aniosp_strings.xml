@@ -186,4 +186,10 @@
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Build maintainer</string>
     <string name="build_maintainer_summary">Unknown</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
