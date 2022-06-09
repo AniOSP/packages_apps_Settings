@@ -42,7 +42,7 @@ public class AniospVersionDetailPreferenceController extends BasePreferenceContr
     private static final String TAG = "aniospVersionDialogCtrl";
     private static final String KEY_ANIOSP_VERSION_PROP = "org.aniosp.version.display";
 
-    public aniospVersionDetailPreferenceController(Context context, String key) {
+    public AniospVersionDetailPreferenceController(Context context, String key) {
         super(context, key);
     }
 
