@@ -163,7 +163,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
                 new SubSettingLauncher(getContext())
                     .setDestination(LegacyNavigationSettingsFragment.class.getName())
                     .setTitleRes(R.string.navigation_bar_title)
-                    .setSourceMetricsCategory(MetricsEvent.CUSTOM_SETTINGS)
+                    .setSourceMetricsCategory(MetricsEvent.ANIOSP_SETTINGS)
                     .launch();
             });
         }

@@ -52,6 +52,6 @@ public class LegacyNavigationSettingsFragment extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CUSTOM_SETTINGS;
+        return MetricsEvent.ANIOSP_SETTINGS;
     }
 }

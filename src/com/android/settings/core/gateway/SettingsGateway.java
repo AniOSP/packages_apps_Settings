@@ -329,7 +329,7 @@ public class SettingsGateway {
             AlarmsAndRemindersDetails.class.getName(),
             MediaManagementAppsDetails.class.getName(),
             LiveDisplaySettings.class.getName(),
-            WifiTetherClientManager.class.getName(),,
+            WifiTetherClientManager.class.getName(),
             AniospSettings.class.getName(),
     };
 

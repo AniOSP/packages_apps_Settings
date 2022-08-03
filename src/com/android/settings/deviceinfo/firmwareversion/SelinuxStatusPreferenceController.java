@@ -34,7 +34,7 @@ public class SelinuxStatusPreferenceController extends BasePreferenceController 
 
     @Override
     public int getAvailabilityStatus() {
-        return AVALIABLE;
+        return 1;
     }
 
     @Override
