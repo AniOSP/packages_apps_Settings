@@ -75,7 +75,7 @@ public class FirmwareVersionDetailPreferenceController extends BasePreferenceCon
 
     @Override
     public CharSequence getSummary() {
-        return Build.VERSION.RELEASE_OR_CODENAME;
+        return "Android 12.1 (12L)";
     }
 
     @Override
